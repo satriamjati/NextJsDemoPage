@@ -5,6 +5,7 @@ module.exports = {
   images:{
         loader:"custom",
         loaderFile:"/NextJsDemoPage/custom-image-loader.js",
+  },
   exportPathMap: function () {
       return {
           '/': { page: '/' }
