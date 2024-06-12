@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   trailingSlash: true,
-  basePath: '/NextJsDemoPage'
+  basePath: '/NextJsDemoPage',
   exportPathMap: function () {
       return {
           '/': { page: '/' }
